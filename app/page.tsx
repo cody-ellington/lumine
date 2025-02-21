@@ -2,27 +2,11 @@ import { CtaCustom } from "@/components/section/cta";
 import { FeatureCustom } from "@/components/section/feature";
 import { FooterCustom } from "@/components/section/footer";
 import { HeroCustom } from "@/components/section/hero";
-import { InfoCustom } from "@/components/section/info";
 import { NavbarCustom } from "@/components/section/navbar";
 import { PricingCustom } from "@/components/section/pricing";
 import { StatsCustom } from "@/components/section/stat";
 import { TestimonialCustom } from "@/components/section/testimonial";
-import Image from "next/image";
 
-interface Feature {
-  title: string;
-  description: string;
-  image: string;
-}
-
-interface Feature166Props {
-  heading: string;
-  description?: string;
-  feature1: Feature;
-  feature2: Feature;
-  feature3: Feature;
-  feature4: Feature;
-}
 
 export default function Home() {
   return (
